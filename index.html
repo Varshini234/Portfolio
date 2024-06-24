@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aravelli Varshini's portfolio. Explore my skills, projects, and qualifications.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ARAVELLI VARSHINI</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#qualifications">Qualifications</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Hi, I'm Aravelli Varshini, a passionate software developer. Explore my work below!</p>
+                <img src="welcome.jpg" alt="Welcome Image" class="responsive-img">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate web developer with a love for clean code and elegant design. My journey began with HTML and CSS, and I’ve since delved into JavaScript and Python. When I’m not coding, you’ll find me exploring new technologies, sipping coffee, and dreaming up creative solutions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Weather App</h3>
+                    <p>Built a weather app that fetches real-time weather data from an API (such as OpenWeatherMap). Display the current weather, forecast, and additional details like humidity, wind speed, and sunrise/sunset times.</p>
+                    <img src="weather-app.jpg" alt="Weather App Screenshot" class="responsive-img">
+                </div>
+                <div class="project">
+                    <h3>Spotify Clone</h3>
+                    <p>A web application similar to Spotify.</p>
+                    <img src="spotify-clone.jpg" alt="Spotify Clone Screenshot" class="responsive-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="qualifications" class="section">
+            <div class="container">
+                <h2>Qualifications</h2>
+                <ul>
+                    <li>Pursuing BTech degree in KMIT with a current average GPA of 8.5 (3rd year)</li>
+                    <li>Completed 11th and 12th from SriGayatri Junior College with 90%</li>
+                    <li>Studied in St.Anthony's High School and secured 9.5 GPA in SSC board exams</li>    
+                </ul>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="container">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Participated in Smart India Hackathon held in KMIT </li>
+                    <li>Certified by NPTEL for completing the courses 'Blockchain and Its Applications' and 'Data Structures and Algorithms Using Java'</li>           
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="process_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
